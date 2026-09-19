@@ -6,6 +6,14 @@ It is designed as a general-purpose admin platform with features such as analyti
 
 Developed as part of my **Algoryx UI/UX Internship – Week 1**.
 
+## 🔗 Live Demo
+
+[View OVARA Live Demo](https://algoryx-week1-ovara-dashboard.vercel.app)
+
+## 📂 GitHub Repository
+
+[View Source Code](https://github.com/aeternum-core/algoryx-week1-ovara-dashboard)
+
 ---
 
 ## ✨ Features
