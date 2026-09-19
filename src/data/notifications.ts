@@ -1,0 +1,60 @@
+import type { NotificationItem } from "../types";
+
+export const initialNotificationsData: NotificationItem[] = [
+  {
+    id: 1,
+    title: "Project deadline approaching",
+    description: "Website Redesign is due tomorrow by 6:00 PM EST.",
+    time: "10 min ago",
+    category: "alert",
+    read: false,
+  },
+  {
+    id: 2,
+    title: "Task completed",
+    description: "Dashboard integration was completed and verified by QA team.",
+    time: "32 min ago",
+    category: "task",
+    read: false,
+  },
+  {
+    id: 3,
+    title: "New message from Aisha",
+    description: "The role permission review is ready for your approval.",
+    time: "1 hr ago",
+    category: "message",
+    read: false,
+  },
+  {
+    id: 4,
+    title: "Workspace update",
+    description: "A new team 'Data Platform' was added to your workspace.",
+    time: "2 hrs ago",
+    category: "workspace",
+    read: false,
+  },
+  {
+    id: 5,
+    title: "Security audit reminder",
+    description: "Quarterly session token rotation is scheduled for Friday 00:00 UTC.",
+    time: "4 hrs ago",
+    category: "alert",
+    read: true,
+  },
+  {
+    id: 6,
+    title: "New member joined workspace",
+    description: "Elena Rostova accepted your workspace invitation.",
+    time: "Yesterday",
+    category: "workspace",
+    read: true,
+  },
+  {
+    id: 7,
+    title: "Sprint milestone achieved",
+    description: "Sprint 14 reached 95% task velocity across all active projects.",
+    time: "2 days ago",
+    category: "task",
+    read: true,
+  },
+];

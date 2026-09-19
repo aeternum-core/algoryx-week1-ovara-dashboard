@@ -1,0 +1,249 @@
+@import "tailwindcss";
+
+/* ovara theme system */
+
+.ovara-dark {
+  color-scheme: dark;
+}
+
+/* main-surfaces */
+.ovara-dark .bg-slate-50 {
+  background-color: #0f172a !important;
+}
+
+.ovara-dark .bg-white {
+  background-color: #1e293b !important;
+}
+
+/* borders */
+.ovara-dark .border-slate-200 {
+  border-color: #334155 !important;
+}
+
+.ovara-dark .border-slate-100 {
+  border-color: #293548 !important;
+}
+
+/* primary text */
+.ovara-dark .text-slate-900 {
+  color: #f8fafc !important;
+}
+
+.ovara-dark .text-slate-800 {
+  color: #e2e8f0 !important;
+}
+
+.ovara-dark .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+.ovara-dark .text-slate-600 {
+  color: #94a3b8 !important;
+}
+
+.ovara-dark .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+.ovara-dark .text-slate-400 {
+  color: #64748b !important;
+}
+
+/* secondary surfaces */
+.ovara-dark .bg-slate-100 {
+  background-color: #334155 !important;
+}
+
+.ovara-dark .bg-slate-50\/70 {
+  background-color: rgba(15, 23, 42, 0.7) !important;
+}
+
+/* hover states */
+.ovara-dark .hover\:bg-slate-50:hover {
+  background-color: #273449 !important;
+}
+
+.ovara-dark .hover\:bg-slate-100:hover {
+  background-color: #334155 !important;
+}
+
+/* search input */
+.ovara-dark input {
+  color: #e2e8f0;
+}
+
+.ovara-dark input::placeholder {
+  color: #64748b;
+}
+
+/* keyboard shortcut */
+.ovara-dark kbd {
+  background-color: #273449 !important;
+  border-color: #475569 !important;
+  color: #94a3b8 !important;
+}
+
+/* dividers */
+.ovara-dark .bg-slate-200 {
+  background-color: #334155 !important;
+}
+
+/* scrollbar */
+.ovara-dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.ovara-dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+.ovara-dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 999px;
+}
+
+.ovara-dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+.ovara-dark .bg-slate-950 {
+  background-color: #0f172a !important;
+}
+
+/* overa animation system */
+
+@keyframes ovara-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ovara-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ovara-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes ovara-slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.ovara-fade-up {
+  animation: ovara-fade-up 0.5s ease-out both;
+}
+
+.ovara-fade-in {
+  animation: ovara-fade-in 0.4s ease-out both;
+}
+
+.ovara-scale-in {
+  animation: ovara-scale-in 0.4s ease-out both;
+}
+
+.ovara-slide-right {
+  animation: ovara-slide-right 0.4s ease-out both;
+}
+
+/* staggered dashboard entrance */
+.ovara-delay-1 {
+  animation-delay: 80ms;
+}
+
+.ovara-delay-2 {
+  animation-delay: 160ms;
+}
+
+.ovara-delay-3 {
+  animation-delay: 240ms;
+}
+
+.ovara-delay-4 {
+  animation-delay: 320ms;
+}
+
+.ovara-delay-5 {
+  animation-delay: 400ms;
+}
+
+/* respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .ovara-fade-up,
+  .ovara-fade-in,
+  .ovara-scale-in,
+  .ovara-slide-right {
+    animation: none;
+  }
+}
+
+/* ovara dark mode - ux polish */
+
+.ovara-dark .bg-slate-100 {
+  background-color: #334155 !important;
+}
+
+.ovara-dark .bg-indigo-50 {
+  background-color: #312e81 !important;
+}
+
+.ovara-dark .bg-amber-50 {
+  background-color: #451a03 !important;
+}
+
+.ovara-dark .bg-emerald-50 {
+  background-color: #052e16 !important;
+}
+
+.ovara-dark .bg-violet-50 {
+  background-color: #2e1065 !important;
+}
+
+.ovara-dark .text-indigo-700 {
+  color: #a5b4fc !important;
+}
+
+.ovara-dark .text-indigo-600 {
+  color: #818cf8 !important;
+}
+
+.ovara-dark .text-slate-300 {
+  color: #cbd5e1 !important;
+}
+
+.ovara-dark .hover\:bg-slate-50:hover {
+  background-color: #273449 !important;
+}
+
+.ovara-dark .hover\:bg-slate-100:hover {
+  background-color: #334155 !important;
+}
