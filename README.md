@@ -1,8 +1,8 @@
 # OVARA – Modern Admin Dashboard
 
-A modern and responsive admin dashboard built with React, TypeScript, Vite and Tailwind CSS.
+OVARA is a modern and responsive admin dashboard built using React, TypeScript, Vite and Tailwind CSS.
 
-OVARA is a general-purpose admin platform that brings commonly used administrative features such as analytics, customers, orders, products, messages and notifications into one interface.
+It is designed as a general-purpose admin platform with features such as analytics, customers, orders, products, messages and notifications in a single interface.
 
 Developed as part of my **Algoryx UI/UX Internship – Week 1**.
 
@@ -12,8 +12,9 @@ Developed as part of my **Algoryx UI/UX Internship – Week 1**.
 
 - Responsive admin dashboard
 - Sidebar and mobile navigation
-- Overview cards and activity sections
-- Analytics page
+- Overview cards
+- Recent activity and data sections
+- Analytics
 - Customers management
 - Orders management
 - Products management
@@ -22,7 +23,7 @@ Developed as part of my **Algoryx UI/UX Internship – Week 1**.
 - Settings
 - Help & Support
 - Workspace search
-- Light / Dark mode
+- Light and dark mode
 - Responsive desktop, tablet and mobile layouts
 - Reusable React components
 - Interactive UI elements and animations
@@ -31,13 +32,13 @@ Developed as part of my **Algoryx UI/UX Internship – Week 1**.
 
 ## 🛠️ Tech Stack
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- Lucide React
-- React Hooks
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **React Router**
+- **Lucide React**
+- **React Hooks**
 
 ---
 
@@ -57,52 +58,112 @@ src/
 ├── App.tsx
 ├── main.tsx
 └── index.css
-
+```
 
 The project follows a component-based structure with reusable UI components.
 
-🚀 Getting Started
+---
 
-Install dependencies
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/aeternum-core/algoryx-week1-ovara-dashboard.git
 ```
+
+### 2. Open the project
+
+```bash
+cd algoryx-week1-ovara-dashboard
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
 ```
 
-Run the development server
-```
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
 
-Build the project
-```
+---
+
+## 🏗️ Build
+
+To create a production build:
+
+```bash
 npm run build
 ```
 
-Run linting
-```
+To check the project with ESLint:
+
+```bash
 npm run lint
 ```
 
-📱 Responsive Design
+---
 
-The dashboard is designed to adapt to:
+## 📱 Responsive Design
 
-Desktop
-Tablet
-Mobile
+OVARA is designed to adapt to different screen sizes:
 
-🎯 Internship Task
+- Desktop
+- Tablet
+- Mobile
 
-Algoryx UI/UX Internship – Week 1
+The navigation and dashboard layout adjust according to the available screen size.
 
-The objective was to design and develop a modern, responsive and professional Admin Dashboard using React with reusable components and responsive UI.
+---
 
-📸 Screenshots
+## 🌙 Theme
 
-Screenshots of the project are available in the **screenshots** folder.
+The dashboard supports:
 
-👨‍💻 Author
+- Light mode
+- Dark mode
 
-Likith V
-AI & Data Science, BGSCET
-Bangalore, Karnataka, India
+The selected theme is applied across the interface.
+
+---
+
+## 📸 Screenshots
+
+Project screenshots are available in the `screenshots` folder.
+
+The screenshots include different dashboard pages, themes and responsive layouts.
+
+---
+
+## 🎯 Internship Task
+
+### Algoryx UI/UX Internship – Week 1
+
+The objective of the task was to design and develop a modern, responsive and professional Admin Dashboard using React.
+
+The project focuses on:
+
+- Responsive UI design
+- Reusable components
+- React component architecture
+- Interactive dashboard elements
+- Responsive navigation
+- Professional frontend development
+
+---
+
+## 👨‍💻 Author
+
+**Likith V**
+
+AI & Data Science Student
+
+---
+
+## 📄 Note
+
+This project was developed for educational and internship purposes as a frontend Admin Dashboard project.
